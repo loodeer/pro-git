@@ -15,3 +15,5 @@ git push origin dev-branch-1:dev-branch-1-remote // 可以将改动推动到另�
 git branch --set-upstream-to=origin/dev-branch-1-remote // 将本地的分支跟远程某一个已经存在的分支做关联。
 
 git branch -vv 查看本地分支关联的远程分支。
+
+git push origin HEAD:dev-branch-1-remote // fatal: The upstream branch of your current branch does not match the name of your current branch.  To push to the upstream branch on the remote, use 'git push origin HEAD:dev-branch-1-remote' To push to the branch of the same name on the remote, use 'git push origin dev-branch-1'
