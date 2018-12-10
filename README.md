@@ -4,6 +4,8 @@ git 实操
 
 ### 本地分支远程分支关联
 
+git remote add origin https://github.com/loodeer/alfred-workflow_local-bookmarks.git // 关联地址
+
 git branch dev-branch-1
 
 do something... && commit
